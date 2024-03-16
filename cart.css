@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, blue, red, orange, green);
+}
+
+.card {
+  border: none;
+}
+
+.product_img img {
+  min-width: 250px;
+  max-height: 250px;
+}
+
+.card h2 {
+  color: rgb(228, 63, 3);
+  text-shadow: 1.5px 1.5px 1.5px green;
+}
+
+.remove-and-wish p {
+  width: 250px;
+  font-weight: 500;
+  padding-right: 0.5rem;
+  margin-bottom: 0;
+}
+
+.remove-and-wish p i {
+  color: blue;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.set_quantity {
+  position: relative;
+}
+
+.set_quantity::after {
+  content: "(Note: 1 Piece)";
+  width: auto;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  font-size: 1 rem;
+  font-weight: 500;
+  color: rgb(228, 63, 3);
+  text-shadow: 1px 1px 1px green;
+  bottom: -25px;
+  right: 1.5rem;
+}
+
+.page-link {
+  line-height: 16px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #495057;
+}
+
+.page-item input {
+  line-height: 22px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.page-link:hover {
+  text-decoration: none;
+  color: #495057;
+  outline: none !important;
+}
+
+.page-link:focus {
+  box-shadow: none !important;
+}
+
+.fa-heart:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.card-title p {
+  font-weight: 500;
+}
+
+.card-title h1 {
+  color: rgb(228, 63, 3);
+  text-shadow: 1.5px 1.5px 1.5px green;
+}
+
+.price-indiv p {
+  color: #444;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.price_money h3 {
+  color: rgb(228, 63, 3);
+  text-shadow: 1px 1px 1px green;
+}
+.product_name {
+  color: rgb(228, 63, 3);
+  text-shadow: 1px 1px 1px green;
+}
+
+.product_indiv {
+  color: #444;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.total-amt p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.card-body a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(228, 63, 3);
+  text-shadow: 1px 1px 1px green;
+}
+
+.discount h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(228, 63, 3);
+  text-shadow: 1px 1px 1px green;
+}
+.discount p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.discount {
+  margin-bottom: 3rem;
+}
