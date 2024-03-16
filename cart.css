@@ -51,7 +51,6 @@ body {
   text-shadow: 1px 1px 1px green;
   bottom: -25px;
   right: 1.5rem;
-  top: 1rem;
 }
 
 .page-link {
@@ -144,4 +143,11 @@ body {
 
 .discount {
   margin-bottom: 3rem;
+}
+
+@media(max-width:768px){
+  .set_quantity::after {
+    right: 0.3rem;
+    top: 1.9rem;
+  }
 }
